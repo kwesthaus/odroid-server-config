@@ -1,0 +1,6 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+UUID=2f4f3c3c-aa55-4d3f-bd4b-588be9770673 /mnt/media ext4 defaults,nofail 0 0
+

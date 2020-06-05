@@ -1,0 +1,9 @@
+[Unit]
+Description=Starts poweroff gpio button polling program
+
+[Service]
+ExecStart=/usr/local/sbin/poweroffButton
+User=root
+
+[Install]
+WantedBy=multi-user.target

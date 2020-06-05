@@ -1,0 +1,3 @@
+[submodule "wiringPi/home/alarm/wiringPi"]
+	path = wiringPi/home/alarm/wiringPi
+	url = https://github.com/hardkernel/WiringPi
