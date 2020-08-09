@@ -1,0 +1,7 @@
+[Unit]
+Description=Run a restic backup (to backblaze)
+
+[Service]
+Type=simple
+User=backblaze-bak
+ExecStart=/bin/bash /usr/local/bin/restic-media-backblaze.sh

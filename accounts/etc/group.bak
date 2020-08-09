@@ -45,9 +45,10 @@ alarm:x:1000:
 avahi:x:977:
 laptop:x:1001:
 desktop:x:1002:
-media:x:1003:desktop,laptop,alarm
+media:x:1003:desktop,laptop,alarm,backblaze-bak
 privdata:x:1004:laptop,alarm
 veracrypt-automount:x:1005:
 restic-bak:x:1006:
 dhcpcd:x:976:
 git:x:975:
+backblaze-bak:x:1007:
