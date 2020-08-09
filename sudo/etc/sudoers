@@ -80,7 +80,7 @@ root ALL=(ALL) ALL
 
 alarm ALL=(ALL) ALL
 
-veracrypt-automount ALL=(ALL) NOPASSWD: /home/veracrypt-automount/automount-privdata.sh
+veracrypt-automount ALL=(ALL) NOPASSWD: /usr/local/bin/automount-privdata.sh
 
 # android-syncopoli ALL=(ALL) NOPASSWD: /usr/bin/rsync --server -vlogDtpre.iLsfxC . /mnt/privdata/phonebak/latest/
 
