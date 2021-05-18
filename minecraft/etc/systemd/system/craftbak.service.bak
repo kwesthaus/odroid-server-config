@@ -1,0 +1,7 @@
+[Unit]
+Description=rsync minecraft server backups to spare drive
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash /usr/local/bin/craft-bak.sh

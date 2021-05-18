@@ -1,0 +1,8 @@
+[Unit]
+Description=rsync minecraft server backups to spare drive every morning (in UTC)
+
+[Timer]
+OnCalendar=10:23
+
+[Install]
+WantedBy=timers.target
