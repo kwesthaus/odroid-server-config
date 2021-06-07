@@ -21,3 +21,6 @@ restic-bak:x:1004:1006::/home/restic-bak:/bin/bash
 dhcpcd:x:976:976:dhcpcd privilege separation:/var/lib/dhcpcd:/usr/bin/nologin
 git:x:975:975:git daemon user:/:/usr/bin/git-shell
 backblaze-bak:x:1005:1007::/home/backblaze-bak:/bin/bash
+systemd-oom:x:973:973:systemd Userspace OOM Killer:/:/usr/bin/nologin
+colord:x:972:972:Color management daemon:/var/lib/colord:/usr/bin/nologin
+polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin

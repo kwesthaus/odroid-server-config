@@ -5,7 +5,7 @@ ftp:x:11:
 mail:x:12:
 log:x:19:
 smmsp:x:25:
-proc:x:26:
+proc:x:26:polkitd
 games:x:50:
 lock:x:54:
 network:x:90:
@@ -52,3 +52,8 @@ restic-bak:x:1006:
 dhcpcd:x:976:
 git:x:975:
 backblaze-bak:x:1007:
+sgx:x:974:
+systemd-oom:x:973:
+wireshark:x:150:
+colord:x:972:
+polkitd:x:102:
